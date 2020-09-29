@@ -1,0 +1,44 @@
+{
+  "name": "react-dva",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "http_env=prod roadhog server",
+    "start-test": "http_env=test roadhog server",
+    "start-uat": "http_env=uat roadhog server",
+    "start-prod": "http_env=prod roadhog server",
+    "build": "http_env=prod roadhog build",
+    "build-test": "http_env=test roadhog build",
+    "build-uat": "http_env=uat roadhog build",
+    "build-prod": "http_env=prod roadhog build",
+    "lint": "eslint --ext .js src test",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "dva": "^2.4.1",
+    "history": "^5.0.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^5.2.0",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-eslint": "^10.0.3",
+    "@typescript-eslint/eslint-plugin": "^2.2.0",
+    "@typescript-eslint/parser": "^2.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-config-react-app": "^3.0.7",
+    "eslint-loader": "2.1.1",
+    "eslint-plugin-flowtype": "2.50.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "7.12.4",
+    "husky": "^0.12.0",
+    "prettier": "1.18.2",
+    "redbox-react": "^1.4.3",
+    "roadhog": "^2.5.0-beta.4"
+  }
+}
