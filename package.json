@@ -1,5 +1,5 @@
 {
-  "name": "xr",
+  "name": "@xmly/xr",
   "version": "0.0.1",
   "description": "xr CLI",
   "private": false,
