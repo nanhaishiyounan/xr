@@ -1,25 +1,21 @@
 # xr CLI
 
-A CLI for xr.
+基于 dvaJs，结合云效配置，自动创建 react 项目的脚手架 cli
 
-## Customizing your CLI
-
-Check out the documentation at https://github.com/infinitered/gluegun/tree/master/docs.
-
-## Publishing to NPM
-
-To package your CLI up for NPM, do this:
+## 安装 cli
 
 ```shell
-$ npm login
-$ npm whoami
-$ npm lint
-$ npm test
-(if typescript, run `npm run build` here)
-$ npm publish
+$ npm install @xmly/xr -g
 ```
 
-# License
+## 创建新项目
 
-MIT - see LICENSE
+```shell
+$ xr new [project]
+```
 
+## 项目启动
+
+```shell
+$ cd [project] & npm start
+```
