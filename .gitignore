@@ -8,3 +8,5 @@ build
 .vscode
 .idea
 /example/
+/node_modules/
+.idea/
