@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { connect } from 'dva';
 import Cat from '../components/Cat';
 
-const Container = styled(animated.div)`
+const Container = styled.div`
   height: 100%;
 `;
 

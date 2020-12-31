@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Container = styled.div`
   display: flex;
 `;
-const CatImg = styled(animated.img)`
+const CatImg = styled.img`
   display: block;
   margin: auto;
   width: 1rem;
