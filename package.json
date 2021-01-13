@@ -1,6 +1,6 @@
 {
   "name": "@xmly/xr",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "xr CLI",
   "private": false,
   "bin": {
